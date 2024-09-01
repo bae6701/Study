@@ -1,0 +1,40 @@
+TLS
+
+static ThreadLocal<string> ThreadName = new ThreadLocal<string>(()=> { return $"My Name is {Thread.CurrentThread.ManagedThreadId}"; });
+        static void WhoAmI()
+        {
+            bool repeat = ThreadName.IsValueCreated;
+
+            if(repeat)
+                System.Console.WriteLine(ThreadName.Value + " (repeat)");
+            else
+                System.Console.WriteLine(ThreadName.Value);
+
+        }
+
+        static void Main(string[] args)
+        {
+            ThreadPool.SetMinThreads(1, 1);
+            ThreadPool.SetMaxThreads(3, 3);
+            Parallel.Invoke(WhoAmI, WhoAmI, WhoAmI, WhoAmI, WhoAmI, WhoAmI, WhoAmI, WhoAmI);
+
+            ThreadName.Dispose();
+        }
+
+OSI 7계층 모델
+
+7계층: 어플리케이션
+6계층: 프레젠테이션
+5계층: 세션
+4계층: 트랜스포트
+3계층: 네트워크
+2계층: 데이터링크
+1계층: 피지컬
+
+TCP/IP 모델
+
+5계층: 어플리케이션
+4계층: 트랜스포트
+3계층: 네트워크
+2계층: 데이터링크
+1계층: 피지컬

@@ -1,0 +1,21 @@
+경합 조건
+
+atomic = 원자성(더이상 쪼개지면 안되는)
+
+원자적으로 한번에 실행되야하는것
+
+Interlocked.Increment/Decrement(int 값만가능)
+
+number++;은
+내부적으로 
+int temp = number;
+temp += 1;
+number = temp;
+이런식으로 처리 되기 때문에
+멀티스레드에서는 number값이 처리하는 과정에서 변경 될수있기때문에
+원자적으로 한번에 실행되야 정상적인 값을 해결할수있다.
+
+
+데드락 DeadLock
+상호배제 Mutual Exclusive
+CriticalSection std:mutex

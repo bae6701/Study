@@ -1,0 +1,18 @@
+데이터 모델링은 3가지 방법으로 가능
+-Convention(관례)
+* public
+* static이면 안됨
+* 생성자가 없거나, 인자 없는 생성자가 있어야 함
+* id 혹은 [클래스]id 형태의 property를 테이블의 Primary key로 간주
+- property의 이름이 테이블 컬럼 이름으로 사용
+- property의 타입을 해당하는 SQL 타입으로 변환
+- C# 형식의 기본  nullable이 테이블 컬럼 nullable에 영향
+
+-Data Annotation (데이터 주석)
+* [Required, MaxLength,.....]
+* Blazor의 Form 검증 때 사용한 모든 Annotation 다 등장
+
+-Fluent API (직접 정의)
+
+
+데이터 관계 모델링

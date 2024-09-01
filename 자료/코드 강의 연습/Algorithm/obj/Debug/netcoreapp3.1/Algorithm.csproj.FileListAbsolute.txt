@@ -1,0 +1,14 @@
+C:\Users\bae67\Desktop\코드 강의 연습\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.exe
+C:\Users\bae67\Desktop\코드 강의 연습\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.deps.json
+C:\Users\bae67\Desktop\코드 강의 연습\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.runtimeconfig.json
+C:\Users\bae67\Desktop\코드 강의 연습\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.runtimeconfig.dev.json
+C:\Users\bae67\Desktop\코드 강의 연습\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.dll
+C:\Users\bae67\Desktop\코드 강의 연습\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.pdb
+C:\Users\bae67\Desktop\코드 강의 연습\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.csproj.AssemblyReference.cache
+C:\Users\bae67\Desktop\코드 강의 연습\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bae67\Desktop\코드 강의 연습\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.AssemblyInfoInputs.cache
+C:\Users\bae67\Desktop\코드 강의 연습\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.AssemblyInfo.cs
+C:\Users\bae67\Desktop\코드 강의 연습\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.csproj.CoreCompileInputs.cache
+C:\Users\bae67\Desktop\코드 강의 연습\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.dll
+C:\Users\bae67\Desktop\코드 강의 연습\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.pdb
+C:\Users\bae67\Desktop\코드 강의 연습\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.genruntimeconfig.cache
